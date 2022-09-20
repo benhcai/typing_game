@@ -41,10 +41,7 @@ function App() {
   const [wordLength, setWordLength] = useState(0);
 
   async function doGetWords() {
-    console.log(letters, wordLength);
     const rawWords = await getWords(letters, wordLength);
-    console.log("gotten", rawWords);
-    console.log("hello");
     setWords(parseWords(rawWords));
   }
 
