@@ -1,15 +1,23 @@
 [
   {
     "name": "keywords",
-    "rawWords": "await break case catch class const continue debugger default delete do else enum export extends false finally for function if implements import in instanceof interface let new null package private protected public return super switch static this throw try true typeof var void while with yield import from export default"
+    "rawWords": "await break case catch class const continue debugger default delete do else enum export extends false finally for of function if implements import in instanceof interface let new null package private protected public return super switch static this throw try true typeof var void while with yield import from export default this"
+  },
+  {
+    "name": "DOM",
+    "rawWords": "addEventListener removeEventListener createElement querySelector innerHTML innreText"
+  },
+  {
+    "name": "array methods",
+    "rawWords": "map filter sort forEach concat every some includes join reduce find findIndex fill slice splice reverse push pop shift unshift"
   },
   {
     "name": "methods",
-    "rawWords": "map filter sort forEach concat every some includes join reduce find findIndex fill slice splice reverse push pop shift unshift console log"
+    "rawWords": "call apply bind toUpperCase toLowerCase length replace replaceAll"
   },
   {
     "name": "commonNames",
-    "rawWords": "string ans number str num val res rej result reject resolve arr"
+    "rawWords": "string ans number str num val res rej result reject resolve arr do create factory view model controller"
   },
   {
     "name": "reacts",
