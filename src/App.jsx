@@ -20,7 +20,7 @@ function App() {
     return parseWords(wordCollections[0].rawWords);
   });
 
-  function scamble(arr) {
+  function scramble(arr) {
     const scrambled = [...arr];
     let curr = arr.length - 1;
     while (curr !== 0) {
@@ -31,8 +31,8 @@ function App() {
     return scrambled;
   }
 
-  function handleScamble(e) {
-    const scrambledWords = scamble(words);
+  function handleScramble(e) {
+    const scrambledWords = scramble(words);
     setWords(scrambledWords);
     e.currentTarget.blur();
   }
@@ -48,7 +48,7 @@ function App() {
   return (
     <div className="App">
       <ChallengeWindow words={words}></ChallengeWindow>
-      <button onClick={handleScamble}>Scramble Words</button>
+      <button onClick={handleScramble}>Scramble Words</button>
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -90,7 +90,13 @@ function App() {
       </form>
       {wordCollections.map((option, id) => {
         return (
-          <button key={id} onClick={() => setWords(parseWords(option.rawWords))}>
+          <button
+            key={id}
+            onClick={(e) => {
+              setWords(parseWords(option.rawWords));
+              e.currentTarget.blur();
+            }}
+          >
             {option.name}
           </button>
         );
