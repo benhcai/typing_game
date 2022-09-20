@@ -21,7 +21,7 @@
   },
   {
     "name": "csss",
-    "rawWords": "css font height width padding margin border color top botton left right display flex grid direction gap row column px rem vh vw shadow animation transition overflow positon background wrap"
+    "rawWords": "css font height width padding margin border color top bottom left right display flex grid direction gap row column px rem vh vw shadow animation transition overflow position background wrap"
   },
   {
     "name": "th",
