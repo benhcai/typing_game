@@ -5,7 +5,7 @@
   },
   {
     "name": "DOM",
-    "rawWords": "addEventListener removeEventListener createElement querySelector innerHTML innreText"
+    "rawWords": "addEventListener removeEventListener createElement querySelector innerHTML innerText"
   },
   {
     "name": "array methods",
