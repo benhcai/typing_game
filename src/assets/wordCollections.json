@@ -1,0 +1,34 @@
+[
+  {
+    "name": "keywords",
+    "rawWords": "await break case catch class const continue debugger default delete do else enum export extends false finally for function if implements import in instanceof interface let new null package private protected public return super switch static this throw try true typeof var void while with yield import from export default"
+  },
+  {
+    "name": "methods",
+    "rawWords": "map filter sort forEach concat every some includes join reduce find findIndex fill slice splice reverse push pop shift unshift console log"
+  },
+  {
+    "name": "commonNames",
+    "rawWords": "string ans number str num val res rej result reject resolve arr"
+  },
+  {
+    "name": "reacts",
+    "rawWords": "react app use state effect callback memo ref useState useEffect useMemo useCallback useRef focus onClick onChange props children current key id"
+  },
+  {
+    "name": "htmls",
+    "rawWords": "html button a link nav table div form input label p img td tr ul textarea section header footer menu head"
+  },
+  {
+    "name": "csss",
+    "rawWords": "css font height width padding margin border color top botton left right display flex grid direction gap row column px rem vh vw shadow animation transition overflow positon background wrap"
+  },
+  {
+    "name": "th",
+    "rawWords": "there their other these three those think third north south month thing death worth smith thank earth depth fifth truth youth faith forth mouth theme birth sixth throw thick threw teeth booth theft ninth cloth tenth width thumb heath tooth thief thigh ethic berth ethos wrath thorn ortho garth broth ether firth filth maths"
+  },
+  {
+    "name": "wi",
+    "rawWords": "iwis kiwi swig swim twig twin twit wich wick wide wife wigs wild wile will wilt wily wimp wind wine wing wink wino wins winy wipe wire wiry wise wish wisp wiss wist wite with wits wive ywis"
+  }
+]
